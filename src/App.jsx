@@ -8,7 +8,7 @@ import RegistrationPage from "./Components-RegistrationPage/RegistrationPage";
 const router = createBrowserRouter(
   [
     {
-      path: "",
+      path: "/",
       element: <LandingPage />,
     },
     {

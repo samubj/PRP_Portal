@@ -23,10 +23,7 @@ const router = createBrowserRouter(
       path: "/register",
       element: <RegistrationPage />,
     },
-  ],
-  {
-    basename: "/PRP_Portal",
-  }
+  ]
 );
 
 function App() {

@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.check-email-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    #6336be 0%,
+    #8b5cf6 100%
+  );
+  color: white;
+  position: relative;
+}
+
+.check-email-navbar {
+  height: 72px;
+  padding: 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.05);
+}
+
+.check-email-logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.check-email-navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 13px;
+}
+
+.check-email-help-btn {
+  border: none;
+  color: white;
+  background: rgba(255,255,255,.12);
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.check-email-back-btn {
+  position: absolute;
+  top: 110px;
+  left: 35px;
+  border: none;
+  background: rgba(255,255,255,.12);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.check-email-back-btn-icon{
+  width: 15px;
+  height: 12px;
+}
+.check-email-content {
+  width: 340px;
+  margin: 120px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.check-email-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.check-email-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.check-email-description {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 20px;
+}
+
+.check-email-info-box {
+  width: 100%;
+  background: #eef2ff;
+  color: #111827;
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  margin-bottom: 24px;
+}
+
+.check-email-caution-icon{
+  width: 16px;
+  height: 16px;
+
+}
+.check-email-login-btn {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  background: #155eef;
+  color: white;
+  cursor: pointer;
+}
+
+.check-email-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255,255,255,.1);
+  margin: 16px 0;
+}
+
+.check-email-resend-text {
+  font-size: 12px;
+}
+
+.check-email-resend-link {
+  color: #1d9bf0;
+  cursor: pointer;
+}
+
+.check-email-footer {
+  margin-top: auto;
+  height: 44px;
+  background: rgba(0,0,0,.15);
+  padding: 0 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  margin-bottom: 50px;
+}
+
+.check-email-footer-links {
+  display: flex;
+  gap: 20px;
+}

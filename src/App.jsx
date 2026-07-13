@@ -8,7 +8,7 @@ import RegistrationPage from "./Components-RegistrationPage/RegistrationPage";
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "",
       element: <LandingPage />,
     },
     {
@@ -23,10 +23,7 @@ const router = createBrowserRouter(
       path: "/register",
       element: <RegistrationPage />,
     },
-  ],
-  {
-    basename: "/PRP_Portal",
-  }
+  ]
 );
 
 function App() {

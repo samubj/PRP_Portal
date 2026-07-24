@@ -4,6 +4,8 @@ import LandingPage from "./Components-LandingPage/landingpage";
 import ForgotPassword from "./Components-LoginPage/ForgotPassword";
 import CheckEmail from "./Components-LoginPage/CheckEmail";
 import RegistrationPage from "./Components-RegistrationPage/RegistrationPage";
+import StudentDashboard from "./Components-Dashboards/Student-Dashboard";
+import AdminDashboard from "./Components-Dashboards/Admin-Dashboard";
 
 const router = createBrowserRouter(
   [
@@ -22,6 +24,14 @@ const router = createBrowserRouter(
     {
       path: "/register",
       element: <RegistrationPage />,
+    },
+    {
+      path: "/student-dashboard",
+      element: <StudentDashboard />,
+    },
+    {
+      path: "/admin-dashboard",
+      element: <AdminDashboard />,
     },
   ],
   {
